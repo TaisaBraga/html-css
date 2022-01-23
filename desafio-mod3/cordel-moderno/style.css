@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'Passion One', cursive;
+  --fonte3: 'Sriracha', cursive;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: block;
+  height: 15.5em;
+  text-align: center;
+}
+
+header > h1 {
+  padding-top: 50px;
+  font-family: var(--fonte2);
+  font-size: 9vw;
+}
+
+header > p {
+  font-family: var(--fonte1);
+  display: block;
+  padding-bottom: 50px;
+}
