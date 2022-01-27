@@ -4,9 +4,9 @@
 }
 
 :root {
-  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-  --fonte2: 'Passion One', cursive;
-  --fonte3: 'Sriracha', cursive;
+  --fonte-p: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte-titulo: 'Passion One', cursive;
+  --fonte-cordel: 'Sriracha', cursive;
 }
 
 header {
@@ -19,12 +19,12 @@ header {
 
 header > h1 {
   padding-top: 50px;
-  font-family: var(--fonte2);
+  font-family: var(--fonte-titulo);
   font-size: 9vw;
 }
 
 header > p {
-  font-family: var(--fonte1);
+  font-family: var(--fonte-p);
   display: block;
   padding-bottom: 50px;
 }
