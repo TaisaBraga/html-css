@@ -12,7 +12,7 @@
 .white-paragraph {
   background-color: white;
   font-family: var(--fonte-cordel);
-  font-size: 2em;
+  font-size: 2vw;
   padding: 3em;
 
   display: block;
@@ -24,12 +24,13 @@
 .transparent-paragraph {
   color: white;
   font-family: var(--fonte-cordel);
-  font-size: 2em;
+  font-size: 2vw;
   padding: 3em;
   position: absolute;
   text-shadow: 1px 1px 0px black;
 
-  display: block;
+  display: inline block;
+
   line-height: 1.75em;
   height: 70vh;
 }
@@ -40,6 +41,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: right center;
+  box-shadow: inset 6px 6px 13px 0px black;
 }
 
 #background-two {
@@ -47,4 +49,6 @@
   position: relative;
   background-attachment: fixed;
   background-size: cover;
+  background-position: right center;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
 }

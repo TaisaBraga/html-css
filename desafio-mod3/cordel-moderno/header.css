@@ -28,3 +28,11 @@ header > p {
   display: block;
   padding-bottom: 50px;
 }
+
+header > p > a {
+  text-decoration: none;
+}
+
+header > p > a:hover {
+  text-decoration: underline;
+}
