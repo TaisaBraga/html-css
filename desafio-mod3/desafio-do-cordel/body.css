@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fonte-p: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte-titulo: 'Passion One', cursive;
+  --fonte-cordel: 'Sriracha', cursive;
+}
+
+.white {
+  font-family: var(--fonte-cordel);
+  font-size: 2em;
+}
+
+.image {
+  background-color: rgba(0, 0, 0, 0.514);
+  background-image: url(../imagens/background001.jpg);
+  background-position: right center;
+
+  color: white;
+  display: inline-block;
+  font-family: var(--fonte-cordel);
+  font-size: 2em;
+  padding: 8px;
+  text-shadow: rgba(0, 0, 0, 0.884);
+}
+
+.image-two {
+  background-color: rgba(0, 0, 0, 0.514);
+  background-image: url(../imagens/background002.jpg);
+  background-position: right center;
+
+  color: white;
+  display: inline-block;
+  font-family: var(--fonte-cordel);
+  font-size: 2em;
+  padding: 8px;
+  text-shadow: rgba(0, 0, 0, 0.884);
+}
