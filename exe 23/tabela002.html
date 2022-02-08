@@ -28,6 +28,12 @@
         color: white;
       }
 
+      tbody > tr:nth-child(even) {
+        /* Para fazer o efeito zebrado usa-se a pseudo-classe nth-child e entre parenteses em qual linha, utilizando a nomenclatura
+        ODD - PAR / EVEN - ÍMPAR*/
+        background-color: lightgray;
+      }
+
       td,
       th {
         border: 1px solid black;
@@ -46,7 +52,7 @@
         TABLE
         CAPTION  - É A LEGENDA DA TABELA
           THEAD
-            TR (linha), TD (dados), TH (titulo])
+            TR (linha), TD (dados), TH (titulo)
           TBODY 
             TR, TD, TH
           TFOOT
@@ -55,12 +61,13 @@
 
     <table>
       <caption>
-        População das unidades federativas do Brasil
+        População das unidades federativas
       </caption>
       <thead>
         <tr>
-          <th>Estado</th>
-          <th>População</th>
+          <!--Para que a informação faça sentido para os utilizadores que não conseguem visualizar a tabela, é preciso definir o âmbito de cada cabeçalho através do atributo scope. Assim, podemos indicar que cada cabeçalho é o título da coluna (scope="col") ou da linha (scope="row") em que estiver inserido-->
+          <th scope="col">Estado</th>
+          <th scope="col" style="width: 50px">População</th>
         </tr>
       </thead>
       <tbody>
@@ -176,7 +183,7 @@
       </tbody>
       <tfoot>
         <tr>
-          <th>Total de habitantes</th>
+          <th scope="row">Total de habitantes</th>
           <td class="num"><strong>210.147.145</strong></td>
         </tr>
       </tfoot>
