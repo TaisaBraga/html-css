@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício de Tabelas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+      .amarelo {
+        background-color: yellow;
+      }
+
+      .vermelho {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+      <caption>
+        Cadastro
+      </caption>
+      <colgroup>
+        <col class="amarelo" />
+        <col class="vermelho" span="2" />
+        <col class="amarelo" />
+      </colgroup>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+      <tr>
+        <td>Ana Maria</td>
+        <td>Feminino</td>
+        <td>30 anos</td>
+        <td>Programadora</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>Feminino</td>
+        <td>18 anos</td>
+        <td>Estudante</td>
+      </tr>
+      <tr>
+        <td>Mario</td>
+        <td>Masculino</td>
+        <td>26 anos</td>
+        <td>Enfermeiro</td>
+      </tr>
+      <tr>
+        <td>Sandro</td>
+        <td>Masculino</td>
+        <td>38 anos</td>
+        <td>Segurança</td>
+      </tr>
+      <tr>
+        <td>Camila</td>
+        <td>Feminino</td>
+        <td>33 anos</td>
+        <td>Cientista</td>
+      </tr>
+    </table>
+  </body>
+</html>
